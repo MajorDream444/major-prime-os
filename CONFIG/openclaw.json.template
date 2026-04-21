@@ -9,10 +9,15 @@
       "baseUrl": "https://openrouter.ai/api/v1"
     }
   },
+  "skills": {
+    "root": "~/.openclaw/workspace/skills",
+    "autoLoad": true
+  },
   "agents": {
     "scout-medspa-buyer": {
       "enabled": true,
-      "schedule": "0 7 * * *"
+      "schedule": "0 7 * * *",
+      "skillPath": "~/.openclaw/workspace/skills/scout-medspa-buyer"
     }
   }
 }
