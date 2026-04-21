@@ -1,0 +1,16 @@
+{
+  "projects": {
+    "major-prime-bot": {
+      "allowedTools": [],
+      "mcpServers": {
+        "firecrawl": {
+          "type": "http",
+          "url": "http://localhost:3002",
+          "headers": {
+            "Authorization": "Bearer fc-local"
+          }
+        }
+      }
+    }
+  }
+}
